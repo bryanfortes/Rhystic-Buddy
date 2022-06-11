@@ -22,6 +22,7 @@ public @Data class Card {
             generator = "card_sequence"
     )
     private Long id;
+    private String scryfallid;
     private String name;
     private String type;
     private String types;
@@ -29,8 +30,10 @@ public @Data class Card {
     private String keywords;
     private String subtypes;
     private String supertypes;
+    private String text;
 
-    public Card(String name, String type, String types, String artist, String keywords, String subtypes, String supertypes) {
+    public Card(String scryfallid, String name, String type, String types, String artist, String keywords, String subtypes, String supertypes, String text) {
+        this.scryfallid = scryfallid;
         this.name = name;
         this.type = type;
         this.types = types;
@@ -38,5 +41,7 @@ public @Data class Card {
         this.keywords = keywords;
         this.subtypes = subtypes;
         this.supertypes = supertypes;
+        this.text = text;
     }
+
 }
