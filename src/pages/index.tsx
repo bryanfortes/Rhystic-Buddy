@@ -1,5 +1,5 @@
 import { SignInButton, useUser } from "@clerk/nextjs";
-import { LandingPage } from "./components/landingpage";
+import { LandingPage } from "../components/landingpage";
 // import Link from "next/link";
 // import { api } from "~/utils/api";
 
