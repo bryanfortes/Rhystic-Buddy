@@ -1,2 +1,2 @@
-WIP Card browser and Deckbuilder for MTG
-deployment: rhystic-buddy.vercel.app
+WIP Card browser and Deckbuilder for MTG  
+Deployment: [rhystic-buddy.vercel.app](rhystic-buddy.vercel.app)
