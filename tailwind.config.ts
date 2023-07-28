@@ -6,7 +6,7 @@ export default {
     extend: {
       colors: {
         text: "#000000",
-        background: "#ffffff",
+        background: "#dde4f3",
         primary: "#8fb3ff",
         secondary: "#ebf1ff",
         accent: "#d41d6d",
@@ -18,7 +18,7 @@ export default {
       {
         mytheme: {
           text: "#000000",
-          background: "#ffffff",
+          background: "#dde4f3",
           primary: "#8fb3ff",
           secondary: "#ebf1ff",
           accent: "#d41d6d",
